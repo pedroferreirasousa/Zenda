@@ -1,0 +1,17 @@
+:root {
+  // Tema claro (default)
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-bg: #ffffff;
+  --color-primary: #2563EB;
+  --color-secondary: #10B981;
+}
+
+[data-theme='dark'] {
+  // Tema escuro
+  --color-text-primary: #F9FAFB;
+  --color-text-secondary: #9CA3AF;
+  --color-bg: #1F2937;
+  --color-primary: #3B82F6;
+  --color-secondary: #34D399;
+}

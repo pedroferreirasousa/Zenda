@@ -1,0 +1,27 @@
+/* Variáveis tema claro (padrão) */
+:root {
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-bg: #ffffff;
+  --color-primary: #2563EB;
+  --color-secondary: #10B981;
+}
+
+/* Variáveis tema escuro */
+[data-theme='dark'] {
+  --color-text-primary: #F9FAFB;
+  --color-text-secondary: #9CA3AF;
+  --color-bg: #1F2937;
+  --color-primary: #3B82F6;
+  --color-secondary: #34D399;
+}
+
+/* Aplicar cores usando as variáveis */
+body {
+  font-family: var(--font-montserrat), sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
